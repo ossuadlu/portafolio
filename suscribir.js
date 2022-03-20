@@ -7,14 +7,14 @@ function suscribir(){
     }
 
     if(val== 0){
-      document.getElementById("btn").disabled =false;
+      document.getElementById("botonSuscribete").disabled =false;
     }
     else {
-      document.getElementById("btn").disabled = true;
+      document.getElementById("botonSuscribete").disabled = true;
     }
   }
 
   document.getElementById("email").addEventListener("keyup",suscribir);
-  document.getElementById("btn").addEventListener("click",()=>{
+  document.getElementById("botonSuscribete").addEventListener("click",()=>{
     alert("tu suscripcion se ha realizado")
   });
