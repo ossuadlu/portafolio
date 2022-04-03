@@ -4,7 +4,6 @@ function enviar(){
     phone = document.getElementById("phone").value;
     message= document.getElementById("message").value;
     val=0;
-
     if(email==""){
       val++;
     }

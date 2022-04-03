@@ -1,4 +1,4 @@
-function suscribir(){
+  function suscribir(){
     email = document.getElementById("correo electronico").value;
     val=0;
 
