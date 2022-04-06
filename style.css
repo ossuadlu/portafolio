@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    background-image: url("img/img/gif1.gif");
+    background-image: url("img/img/fondo.jpg");
 }
 /*===================MENU==========================*/
 
@@ -37,7 +37,7 @@ body {
 /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
 #local {
     margin-top:50px;
-    background-image: url("img/img/gif1.gif");
+    background-image: url("img/img/fondo.jpg");
     display:flex;
     justify-content: center; 
     padding-bottom: 300px;
@@ -70,7 +70,7 @@ body {
 } 
 
  #seccion-contacto{
-    background-image: url("img/img/gif1.gif");;
+    background-image: url("img/img/fondo.jpg");;
     min-height:500px;
     position:relative;
 }
@@ -82,7 +82,7 @@ body {
     top:30%;
     left:50%;
     transform: translate(-50%, -50%);
-    background-image: url("img/img/gif1.gif");
+    background-image: url("img/img/fondo.jpg");
     border-radius:5px;
     
 }
